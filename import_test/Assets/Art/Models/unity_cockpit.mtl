@@ -1,0 +1,35 @@
+newmtl acmat_0
+Kd 1 1 0
+Ka 0.2 0.2 0.2
+Ks 0.2 0.2 0.2
+Ns 128
+Tr 0
+map_Kd Cockpit.png
+newmtl acmat_1
+Kd 1 1 1
+Ka 0.2 0.2 0.2
+Ks 0.2 0.2 0.2
+Ns 128
+Tr 0
+map_Kd Cockpit.png
+newmtl acmat_2
+Kd 1 1 1
+Ka 0.2 0.2 0.2
+Ks 0.2 0.2 0.2
+Ns 127.451
+Tr 0
+map_Kd Cockpit.png
+newmtl acmat_3
+Kd 0.64 0.64 0.64
+Ka 1 1 1
+Ks 0.5 0.5 0.5
+Ns 96.0784
+Tr 0
+map_Kd Cockpit.png
+newmtl acmat_4
+Kd 0.266667 0.266667 0.266667
+Ka 0.2 0.2 0.2
+Ks 0.2 0.2 0.2
+Ns 128
+Tr 0
+map_Kd Cockpit.png
