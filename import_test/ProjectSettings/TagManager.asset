@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - BT_3STG_2
+  - BT_3STG_3
+  - BT_3STG_1
+  - popup
   layers:
   - Default
   - TransparentFX
@@ -13,6 +17,12 @@ TagManager:
   - UI
   - 
   - 
+  - Ethan
+  - MazeWalls
+  - MazeTurret
+  - MazeTurretBullet
+  - Bg
+  - FPSWeapon
   - 
   - 
   - 
@@ -29,15 +39,12 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Interactable
   - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: GUI
+    uniqueID: 2379361113
     locked: 0
