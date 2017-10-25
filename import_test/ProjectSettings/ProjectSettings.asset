@@ -7,11 +7,11 @@ PlayerSettings:
   productGUID: 5a86b210c1fdd0a47944fb1e9e3bc5bd
   AndroidProfiler: 0
   defaultScreenOrientation: 3
-  targetDevice: 2
+  targetDevice: 0
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Unity
-  productName: VRSamples
+  companyName: fsantos
+  productName: virtuasim
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -78,7 +78,7 @@ PlayerSettings:
   resizableWindow: 0
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
-  gpuSkinning: 1
+  gpuSkinning: 0
   graphicsJobs: 0
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
@@ -144,7 +144,7 @@ PlayerSettings:
     Android: com.unity3d.vrstandardassets
     Standalone: unity.Unity.VRSamples
     Tizen: com.unity3d.vrstandardassets
-    iOS: com.unity3d.vrstandardassets
+    iOS: br.com.fsantos
     tvOS: com.unity3d.vrstandardassets
   buildNumber:
     iOS: 0
@@ -260,6 +260,10 @@ PlayerSettings:
     m_Enabled: 1
     m_Devices:
     - cardboard
+  - m_BuildTarget: iOS
+    m_Enabled: 1
+    m_Devices:
+    - cardboard
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   webPlayerTemplate: APPLICATION:Default
@@ -287,7 +291,7 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
+  cameraUsageDescription: Used to scan QR codes
   locationUsageDescription: 
   microphoneUsageDescription: 
   switchNetLibKey: 

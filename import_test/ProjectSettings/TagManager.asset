@@ -8,6 +8,12 @@ TagManager:
   - BT_3STG_3
   - BT_3STG_1
   - popup
+  - bt_auto
+  - bt_off
+  - bt_disc
+  - bt_on
+  - bt_1
+  - bt_2
   layers:
   - Default
   - TransparentFX
